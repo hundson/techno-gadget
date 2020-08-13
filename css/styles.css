@@ -1,0 +1,129 @@
+/*Tag Selectors*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #f6ab6c;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f08a5d;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #fecb89 6px;
+  border-bottom: none;
+  width: 2%;
+  margin: 100px auto;
+  border-color: #fecb89;
+}
+
+a {
+  color: #f08a5d;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/*ClassSelectors*/
+.top-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #f6ab6c;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.visit-message {
+  width: 35%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.store-logo {
+  width: 200px;
+}
+
+.discount-img {
+  width: 17%;
+  border: groove;
+  float: left;
+  margin-right: 30px;
+}
+
+.shipping-img {
+  width: 22%;
+  border: groove;
+  float: right;
+  margin-left: 30px;
+}
+
+.customer-support-img {
+  width: 23%;
+  border: groove;
+  float: left;
+  margin-right: 30px;
+}
+
+.why-buy-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background: #f08a5d;
+  background-image: -webkit-linear-gradient(top, #f08a5d, #ff5f40);
+  background-image: -moz-linear-gradient(top, #f08a5d, #ff5f40);
+  background-image: -ms-linear-gradient(top, #f08a5d, #ff5f40);
+  background-image: -o-linear-gradient(top, #f08a5d, #ff5f40);
+  background-image: linear-gradient(to bottom, #f08a5d, #ff5f40);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #febf63;
+  background-image: -webkit-linear-gradient(top, #febf63, #eebb4d);
+  background-image: -moz-linear-gradient(top, #febf63, #eebb4d);
+  background-image: -ms-linear-gradient(top, #febf63, #eebb4d);
+  background-image: -o-linear-gradient(top, #febf63, #eebb4d);
+  background-image: linear-gradient(to bottom, #febf63, #eebb4d);
+  text-decoration: none;
+}
+
+/*ID Selectors*/
